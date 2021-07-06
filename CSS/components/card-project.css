@@ -1,0 +1,47 @@
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#5F4BB6;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0px #fff;
+  
+}
+
+.card-project.-blue {
+    background-color: #3A4042;
+}
+
+.card-project.-collor{
+    background-color: #FFC300;
+}
+
+.card-project.-c-loader {
+    animation: is-rotating 1s infinite;
+    width: 50px;
+    height: 50px;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color:#000;
+    box-shadow:none;
+    background-color: #3A4042;
+}
+
+.card-project.-c-loader.-cor {
+    animation: is-rotating 1s infinite;
+    width: 50px;
+    height: 50px;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color:#000;
+    box-shadow:none;
+    background-color: #FFC300;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+    
