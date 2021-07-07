@@ -8,3 +8,10 @@
 .main-subtitle.-card {
     font-size: 55px;
 }
+
+.main-subtitle.-second{
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+    font-size: 38px;
+}
