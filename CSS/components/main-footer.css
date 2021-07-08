@@ -1,9 +1,10 @@
 .main-footer {
-    display: flex;
+    display:flex;
     justify-content: center;
+    box-sizing: border-box;
     background-color: #000;
     padding-top: 28px;
-    padding-bottom: 28px;
+    padding-bottom: 16px;
 }
 
 .main-footer .item {
